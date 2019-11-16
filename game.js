@@ -1,7 +1,7 @@
 const config = {
   type: Phaser.AUTO,
   // TO DO 1: Have something show up
-  // width: ?
+  // width: ?,
   // height: ?,
 
   // backgroundColor: ?, 
@@ -28,7 +28,7 @@ function preload() {
   // TO DO 2: Load assets (player, platform, pick a star)
 }
 
-// TO DO 3: Set up game state (score, cursors)
+// TO DO 3: Set up game state (score)
 
 function create() {
   // TO DO 4: Make a player
@@ -39,7 +39,7 @@ function create() {
 
   // TO DO 6: Add score text
 
-  // TO DO 7: Add player/platform collision
+  // TO DO 7: Add player/platform collision and cursors
 
   // TO DO 8: Add star logic
   
@@ -72,7 +72,7 @@ function create() {
 }
 
 function update() {
-  //TO DO 4.5: update the update function
+  //TO DO 7.5: update the update function
   // if (gameState.cursors.left.isDown) {
   //   gameState.player.setVelocityX(-160);
   // } 
